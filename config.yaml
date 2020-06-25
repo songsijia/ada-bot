@@ -1,7 +1,7 @@
 
 discord:
   botkey: "botkey"
-  channel: "724287579519713280"
+  channel: "channel"
   qlength: 64
   waitms: "500ms"
 
