@@ -83,7 +83,7 @@ func ready(s *discordgo.Session, r *discordgo.Ready) {
 		}
 		fmt.Println("----------------------------------")
 	}
-	if err := s.UpdateStatus(0, "play.achaea.com"); err != nil {
+	if err := s.UpdateListeningStatus("!help for commands"); err != nil {
 		log.Printf("warning: discordgo.Session.UpdateStatus: %v", err) // Not a fatal error
 	}
 }

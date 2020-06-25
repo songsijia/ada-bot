@@ -40,7 +40,7 @@ type qwhoTrigger struct {
 }
 
 func (q *qwhoTrigger) Help() string {
-	return "Check for online players visible on Achaea at the moment."
+	return "Check for online players visible on Lusternia at the moment."
 }
 
 func (q *qwhoTrigger) HelpDetail() string {
@@ -78,7 +78,7 @@ func (q *qwhoTrigger) Reaction(m *discordgo.Message, a *discordgo.Member, mType 
 	}
 	/* end rate limit qwho */
 
-	url := "http://api.achaea.com/characters.json"
+	url := "http://api.lusternia.com/characters.json"
 	response := "```"
 
 	var _results qwho
