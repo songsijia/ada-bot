@@ -1,6 +1,6 @@
 
 discord:
-  botkey: "NzI0Mjk1OTI0MjA0OTYxOTIy.Xu-K8Q.FIllzgQ7XTIsQyF-widE6fxhmpM"
+  botkey: "botkey"
   channel: "724287579519713280"
   qlength: 64
   waitms: "500ms"
